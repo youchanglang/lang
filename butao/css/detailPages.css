@@ -1,0 +1,264 @@
+#center-background{
+	width:100%;
+	background: #f7f7f7;
+	overflow: hidden;
+}
+#center-background .product{
+	width:968px;
+	margin: 0 auto;
+	border:1px solid #dddddd;
+	margin-top: 12px;
+	padding: 15px;
+	background: #fff;
+	margin-bottom: 15px;
+}
+.product .product-top{
+	width:980px;
+	height:56px;
+	line-height: 56px;
+	margin: 0 auto;
+	font-size: 19px;
+	
+}
+.product .product-buttom {
+	overflow: hidden;
+	
+}
+.product-buttom .product-buttom-left{
+	float:left;
+	width:438px;
+	height:280px;
+}
+.product-buttom .product-buttom-right{
+	float:left;
+	margin-left: 36px;
+	width:480px;
+}
+.product-buttom-right li{
+	border-bottom: 1px solid #eeeeee;
+}
+.product-buttom-right .li-1 span{
+	display: inline-block;
+	height:42px;
+	line-height: 42px;
+	font-size: 26px;
+	color:#d71e2a;
+	font-weight: bolder;
+}
+.product-buttom-right .li-1 em{
+	display: inline-block;
+	height:42px;
+	line-height: 42px;
+	font-size: 16px;
+	color:#d71e2a;
+	font-weight: bold;
+	margin-left: 10px;
+	text-decoration: line-through;
+}
+.product-buttom-right .li-2{
+	overflow: hidden;
+}
+.product-buttom-right .li-2 span{
+	float:left;
+	display: inline-block;
+	height:38px;
+	line-height: 38px;
+	color:#666666;
+	width:150px;
+	background: url(../images/detapages-1.gif) no-repeat right 14px;
+}
+.product-buttom-right .li-2 em{
+	float:right;
+	height:38px;
+	line-height: 38px;
+	margin-right: 10px;
+}
+.product-buttom-right .li-3{
+	padding: 25px 0;
+}
+.product-buttom-right .li-3 .span-1{
+	display: inline-block;
+	width:170px;
+	height:50px;
+	line-height: 50px;
+	text-align: center;
+	color:#fff;
+	background-color: #c40001;
+	font-size: 24px;
+	margin-right: 15px;
+	cursor:pointer;
+}
+.product-buttom-right .li-3 .span-2{
+	display: inline-block;
+	width:170px;
+	height:50px;
+	line-height: 50px;
+	text-align: center;
+	color:#d26868;
+	font-size: 24px;
+	border: 1px solid #d26868;
+	cursor:pointer;
+}
+.product-buttom-right .li-4 span{
+	display: inline-block;
+	height:38px;
+	line-height: 38px;
+	text-indent: 16px;
+	background: url(../images/detailPages-2.gif) no-repeat 0 11px;
+	margin-right: 30px;
+	cursor:pointer;
+}
+.product-buttom-right .li-5 span{
+	display:block;
+	height:45px;
+	line-height: 45px;
+	width:109px;
+	margin: 0 auto;
+	font-size: 14px;
+}
+
+#center-background .products-review{
+	width:998px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.products-review .deal-cont{
+	float:left
+}
+.products-review .deal-stuff{
+	width:746px;
+	
+}
+.deal-stuff .deal-stuff-top{
+	overflow: hidden;
+	height:28px;
+	padding-top: 4px;
+	background: url(../images/detailPages-3.gif) repeat-x;
+}
+.deal-stuff .deal-stuff-top ul{
+	float:left;
+	overflow: hidden;
+}
+.deal-stuff .deal-stuff-top li{
+   float:left;
+   height:27px;
+   line-height: 27px;
+   padding: 0 16px;
+   border-right: 1px solid #d9d9d9;
+   cursor:pointer;
+}
+.deal-stuff .deal-stuff-top .li-2{
+	background-color: #f6f6f6;
+}
+.deal-stuff .deal-stuff-top li:hover{
+	background-color: #f6f6f6;
+}
+.deal-stuff .deal-stuff-top span{
+	float:left;
+	height:27px;
+    line-height: 27px;
+    margin-left: 50px;
+}
+.deal-stuff .deal-stuff-top em{
+	float:right;
+	height:25px;
+    line-height: 25px;
+    width:85px;
+    border:1px solid #b82915;
+    text-align: center;
+    font-size: 15px;
+    color:#b82915;
+    background-color: #f3d364;
+    font-weight: bold;
+    margin-right: 84px;
+    cursor:pointer;
+}
+
+.deal-stuff .deal-stuff-buttom{
+	height:300px;
+	border:1px solid #e5e5e5;
+	margin-top: 5px;
+	background-color: #fff;
+	overflow: auto;
+	border-bottom: none;
+	padding: 30px;
+}
+.deal-stuff .deal-stuff-buttom div h5{
+	padding-top: 5px;
+	color:orangered;
+	height:16px;
+}
+.deal-stuff .deal-stuff-buttom div p{
+	width:700px
+	margin-top: 5px;
+	text-indent: 15px;
+	font-size: 13px;
+	height:25px;
+	border-bottom: 1px solid darkred;
+}
+.deal-stuff .deal-stuff-p{
+	width:300px;
+	margin: 0 auto;
+	height:20px;
+	background-color: #fff;
+	padding-left: 200px;
+	border: 1px solid #e5e5e5;
+	border-top:none;
+	border-radius: 10px;
+    padding-top: 10px;
+	
+}
+.deal-stuff .deal-stuff-p span{
+	font-size: 14px;
+	color:red;
+}
+.deal-stuff .deal-stuff-p em{
+	font-size: 14px;
+}
+
+
+.products-review .deal-side{
+	float:left;
+	margin-left: 15px;
+}
+.deal-side .deal-side-top{
+	width:235px;
+	height:500px;
+	border:1px solid #cccccc;
+	background-color: #fffafa;
+}
+
+.deal-side-top ul{
+	
+}
+.deal-side-top ul li{
+	padding-bottom: 6px;
+	border-bottom: 1px dashed #555555;
+}
+.deal-side-top ul .li-1{
+	width:235px;
+	height:46px;
+	background: url(../images/dd.gif) no-repeat;
+	
+}
+.deal-side-top ul li h4{
+	width:225px;
+	height:42px;
+	line-height: 42px;
+	color:#ea1724;
+	font-size: 18px;
+	text-indent: 30px;
+	background: url(../images/q.gif) no-repeat 7px 12px;
+}
+.deal-side-top ul li p{
+	width:195px;
+	line-height:21px;
+	padding-left: 30px;
+}
+.deal-side-top ul .li-6{
+	border: none;
+	padding: 20px 0;
+}
+.deal-side-top ul .li-6 img{
+	margin-left: 8px;
+}

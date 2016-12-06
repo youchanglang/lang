@@ -1,0 +1,86 @@
+#main .classify{
+	overflow: hidden;
+	border: 1px solid #dddddd;
+	padding: 10px;
+}
+.classify .classify-left{
+	float: left;
+	margin-left: 10px;
+}
+.classify .classify-right{
+	float: left;
+}
+.classify-right p{
+	overflow: hidden;
+	margin-bottom: 10px;
+	width:920px;
+	line-height: 20px;
+	padding: 10px 3px;
+}
+.classify-right p span{
+	float:left;
+	margin-right: 20px;
+}
+.classify-right p .span-1{
+	height:20px;
+	margin-left: 5px;
+}
+.classify-right h5{
+	overflow: hidden;
+	margin-bottom: 10px;
+	width:920px;
+	line-height: 20px;
+	background: #f2f2f2;
+	padding: 10px 3px;
+}
+.classify-right h5 span{
+	float:left;
+	margin-right: 20px;
+}
+.classify-right h5 .span-1{
+	height:30px;
+	margin-left: 5px;
+}
+.classify-right h5 span a{
+	color:#555;
+}
+
+
+.kk{
+	width:420px;
+	margin: 25px auto;
+	overflow: hidden;
+}
+.kk em{
+	float:left;
+	width:40px;
+	height:20px;
+	line-height: 20px;
+	border: 1px solid darkblue;
+	cursor:pointer;
+}
+#main .paging{
+	width:320px;
+	height:22px;
+	margin: 0 auto;
+	margin-bottom: 36px;
+	float:left;
+	margin-left: 5px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.paging .ospan{
+	display: inline-block;
+	width:25px;
+	height:20px;
+	line-height: 20px;
+	border: 1px solid #008000;
+	margin-right: 5px;
+	text-align: center;
+	font-size: 16px;
+	cursor:pointer;
+}
+.goods-message:hover{
+	 box-shadow:0 0 10px #0CC;
+}

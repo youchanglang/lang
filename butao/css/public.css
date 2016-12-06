@@ -1,0 +1,301 @@
+#head{
+	width:100%;
+	padding-bottom: 22px;
+	position: relative;
+}
+#head .em-1{
+	display: inline-block;
+	width:20px;
+	height:23px;
+	background: url(../images/index-1.gif) no-repeat;
+	position: absolute;
+	left:170px;
+}
+#head .em-2{
+	display: inline-block;
+	width:50px;
+	height:24px;
+	background: url(../images/index-3.gif) no-repeat;
+	position: absolute;
+	right:170px;
+}
+#head .head-div1{
+	overflow: hidden;
+	padding-top: 7px;
+	width:900px;
+	margin: 0 auto;
+}
+
+#head .head-div1 .ul-1{
+	overflow: hidden;
+	float:left;
+}
+#head .head-div1 .ul-1 li{
+	float: left;
+	padding:0 10px;
+	border-right:1px solid;
+}
+ 
+#head .head-div1 .ul-1 .li-4,#head .head-div1 .ul-2 .li-4{
+	border: none;
+}
+#head .head-div1 .ul-1 .li-2 a{
+	margin-left: 12px;
+	
+}
+
+#head .head-div1 .ul-1 li a,#head .head-div1 .ul-2 li a{
+	color:#555555;
+}
+#head .head-div1 .ul-1 .li-3 a{
+	margin-right: 2px;
+}
+#head .head-div1 .ul-2{
+	float:left;
+	overflow: hidden;
+	margin-left: 30px;
+}
+#head .head-div1 .ul-2 li{
+	float:left;
+	padding: 0 10px;
+	border-right:1px solid;
+}
+#head .head-div1 .ul-2 .li-2{
+	border: none;
+}
+#head .head-div1 .ul-2 li .span-1{
+	color:red;
+}
+.head-div2{
+	width:930px;
+	overflow: hidden;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.head-div2 .logo{
+	width:194px;
+	height:57px;
+	background: url(../images/logo.gif) no-repeat;
+	float:left;
+}
+.head-div2 .search{
+	overflow: hidden;
+	padding-left: 18px;
+	padding-top: 6px;
+}
+.head-div2 .search .search-div{
+	width:458px;
+	float:left;
+}
+.head-div2 .search .search-Input{
+	width:458px;
+	height:32px;
+	overflow: hidden;
+	border: 2px solid darkred;
+}
+.head-div2 .search .search-Input #i{
+	width:15px;
+	height:22px;
+	margin-left: 5px;
+	margin-top: 10px;
+	float: left;
+}
+.head-div2 .search .search-Input .txt{
+	height:30px;
+	border: none;
+	float: left;
+	width:354px;
+	text-indent: 8px;
+	outline: none;
+}
+.head-div2 .search .search-Input .sub{
+	height:32px;
+	border: none;
+	float: right;
+	width:82px;
+	background-color: darkred;
+	color:#fff;
+}
+.head-div2 .search .search-div .ul-2{
+	padding-top: 8px;
+	overflow: hidden;
+}
+.head-div2 .search .search-div .ul-2 li{
+	float:left;
+	padding: 0 6px;
+}
+.head-div2 .search .search-div .ul-2 li a{
+	color:#999999;
+}
+.head-div2 .search .ul-1{
+	float:left;
+	overflow: hidden;
+}
+.head-div2 .search .ul-1 li{
+	float:left;
+	padding: 0 10px;
+}
+
+
+
+#menu{
+	width:100%;
+	background: #cf1b1b;
+}
+#menu .ul-1{
+	overflow: hidden;
+	width:930px;
+	margin: 0 auto;
+}
+#menu .ul-1 li{
+	float:left;
+	border-right: 1px solid #fe5252;
+}
+#menu .ul-1 .li-7{
+	border: none;
+}
+#menu .ul-1 li:hover{
+	background: #a90a0a;
+}
+#menu .ul-1 li a{
+	display: inline-block;
+	padding: 0 26px;
+	color:#fff;
+	height:38px;
+	line-height: 38px;
+	font-size: 15px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+#guild{
+	width:100%;
+	background: #f7f7f7;
+	overflow: hidden;
+	padding: 24px 0 20px 0;
+	
+}
+#guild .cla{
+	margin-left: 110px;
+}
+#guild .cla .guild-1,.guild-2,.guild-3,.guild-4,.guild-5{
+	float:left;
+}
+
+#guild ul{
+	padding-left: 60px;
+	padding-right: 20px;
+	border-right: 1px solid #e9e1e8;
+}
+#guild ul li{
+	height:21px;
+	line-height: 21px;
+	
+}
+#guild ul .guild-div1{
+	color:#d15c61;
+	height:26px;
+	line-height: 26px;
+	text-indent: 16px;
+	margin-bottom: 10px;
+	position: relative;
+}
+#guild ul .guild-div1 img{
+	position: absolute;
+	top:0;
+	left:-13px;
+}
+#guild ul li a{
+	color:#a49999;
+}
+#guild .cla .guild-5 ul{
+	border: none;
+}
+#guild .cla .guild-5 ul .li1{
+	font-size: 18px;
+	height:26px;
+	line-height: 26px;
+	color:#d15c61;
+	
+}
+#guild .cla .guild-5 ul .li1 span{
+	font-size: 12px;
+}
+#guild .cla .guild-5 ul .li2{
+	height:35px;
+	line-height: 35px;
+	font-size: 17px;
+	color: #999999;
+	font-weight: bold;
+	text-indent: 15px;
+	border-top: 1px solid #ebe5eb;
+}
+#guild .cla .guild-5 ul .li3{
+	height: 30px;
+}
+#guild .cla .guild-5 ul .li4{
+	height:30px;
+	line-height: 30px;
+	color: #999999;
+}
+
+
+
+
+
+
+#friendink{
+	width:100%;
+	background-color: #d31c28;
+	padding: 12px 0;
+}
+
+#friendink ul{
+	width:610px;
+	overflow:hidden;
+	margin: 0 auto;
+}
+#friendink ul li{
+	float: left;
+	padding: 0 14px;
+	border-right:1px solid #fff;
+}
+#friendink ul li a{
+	color:#fff;
+	font-size: 13px;
+}
+#friendink ul .friendink-li1{
+	border:none;
+}
+
+
+
+
+#footer{
+	width:100%;
+	height:132px;
+	background-color: #f7f7f7;
+	padding-top: 18px;
+}
+#footer p{
+	width:486px;
+	color: #bfa499;
+	margin: 0 auto;
+}
+#footer div{
+	width:600px;
+	margin: 18px auto;
+}
+#footer div a{
+	
+	margin-right: 17px;
+}
