@@ -50,7 +50,7 @@ $(function(){
 	for(var i=0;i<srcArray.length;i++){
 		console.log(quantityArray[i]);
 		var nettStr3=nettArray[i].replace(/\￥/gi,'');
-		nettStr3=nettStr3.substring()
+		nettStr3=nettStr3.substring();
 		var priceStr3=priceArray[i].replace(/\￥/gi,'');
 		var nettStr4=(parseFloat(nettStr3)-parseFloat(priceStr3))*quantityArray[i];
 		var priceStr4=parseFloat(priceStr3)*quantityArray[i];
