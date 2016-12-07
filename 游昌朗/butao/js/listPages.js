@@ -38,18 +38,24 @@ $(function(){
 		$('.head-div1 .ul-1 .li-3 .a-1').text('注销').prop('href','../html/login.html');
 		
 	}
-	
+	var ys=1;
+	var pd=0;
 	function page(_pageindex, _isgenerate){
 		$.get('../index.txt',{'_': Math.random(),page: _pageindex},function(_response){
+			ys=parseInt(_pageindex);
 			var _data = typeof _response == 'string' ? JSON.parse(_response) : _response;
 			
 			var pagep=Math.ceil(_data.totalCount/_data.pageSize);
+			pd=pagep;
+			console.log(pagep);
 			//创建翻页按钮
 			if(_isgenerate){
 				for(var j=1;j<=pagep;j++){
 				var Ospan='<span class="ospan">'+j+'</span>';
 				$(Ospan).appendTo('.main-hot .paging');
+				
 			}
+				$('.main-hot .paging .ospan').eq(0).css('background-color','red');
 			}
 			//商品列表
 			$('#main .goods-list').html('');
@@ -70,6 +76,7 @@ $(function(){
 				}
 				
 			}
+			
 			
 			//转数据信息给详情页
 			$('.goods-list .goods-message').on('click',function(evt){
@@ -95,9 +102,44 @@ $(function(){
 		if($(evt.target).is('span')){
 			console.log($(evt.target));
 			page($(evt.target).text());
+			$('.main-hot .paging .ospan').css('background-color','#fff');
+			$(evt.target).css('background-color','red');
+			
 		}
 		
 	});
+	
+	//上一页
+	$('#main .kk .em-1').click(function(){
+		if(ys>1){
+			ys=ys-1;
+		    page(ys);
+		    for(var i=0;i<$('.main-hot .paging .ospan').length;i++){
+		    	if($('.main-hot .paging .ospan').eq(i).text()==ys){
+		    		$('.main-hot .paging .ospan').css('background-color','#fff');
+		    		$('.main-hot .paging .ospan').eq(i).css('background-color','red');
+		    	}
+		    }
+		}
+	});
+	//下一页
+	$('#main .kk .em-2').click(function(){
+		console.log(pd);
+		console.log(ys);
+		if(ys<pd){
+			ys=ys+1;
+		    page(ys);
+		    for(var i=0;i<$('.main-hot .paging .ospan').length;i++){
+		    	if($('.main-hot .paging .ospan').eq(i).text()==ys){
+		    		$('.main-hot .paging .ospan').css('background-color','#fff');
+		    		$('.main-hot .paging .ospan').eq(i).css('background-color','red');
+		    	}
+		    }
+		}
+		
+	});
+	
+	
 	
 	$('#menu .ul-1').click(function(evt){
 		if($(evt.target).is('#menu .ul-1 li a')&&!$(evt.target).is('#menu .ul-1 .li-1 a')){
